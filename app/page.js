@@ -1,5 +1,5 @@
 import Categories from '@/components/categories/Categories';
-import Image from 'next/image';
+import SearchBox from '@/components/search/SearchBox';
 
 const getCats = async () => {
 	const data = await fetch(
