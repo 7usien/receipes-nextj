@@ -7,7 +7,9 @@ const CheckActiveLink = ({ hrefUrl, classes, children }) => {
 	return (
 		<Link
 			href={hrefUrl}
-			className={`${classes ? classes : ''} ${hrefUrl === router ? 'active' : ''}`}>
+			className={`${classes ? classes : ''} ${
+				hrefUrl === router ? 'active' : ''
+			}`}>
 			{children}
 		</Link>
 	);

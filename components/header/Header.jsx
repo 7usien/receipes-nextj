@@ -5,10 +5,11 @@ import CheckActiveLink from '../CheckActive';
 
 const Header = () => {
 	return (
-		<header className='flex justify-between bg-gray-400 p-8'>
+		<header id="myheader" className='flex justify-between bg-cyan-600 p-8 sticky top-0 left-0 z-20 shadow-md
+		'>
 			<Link href='/'>
-				<h3 className='text-2xl'>
-					<GiMite className='inline-block mr-2' />
+				<h3 className='text-2xl flex justify-center items-center text-white'>
+					<GiMite className='inline-block mr-2 align-middle' />
 					Foodies
 				</h3>
 			</Link>
